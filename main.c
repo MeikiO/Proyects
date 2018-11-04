@@ -8,6 +8,10 @@ int main()
 
   printf("\n hello world");
 
+  printf("sartu lehen hitz batzuk");
+  fgets(str,125,stdin);
+  str[strlen(str)-1]='\0';
+  
   printf("\n return to finish");
   fgets(str,125,stdio);
   return 0;
