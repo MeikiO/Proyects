@@ -13,6 +13,9 @@ int main()
   str[strlen(str)-1]='\0';
   
   //hasi me da igual meter los cambios
+
+  i = 50;
+
   
   printf("\n return to finish");
   fgets(str,125,stdio);
