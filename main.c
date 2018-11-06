@@ -12,11 +12,7 @@ int main()
   fgets(str,125,stdin);
   str[strlen(str)-1]='\0';
   
-  printf("\n zenbat urte dituzu");
-  fgets(str,125,stdin);
-  sscanf(str,"%d",&i);
-  
-  printf("\n sartutako zenbakia %d da",i);
+  //hasi me da igual meter los cambios
   
   printf("\n return to finish");
   fgets(str,125,stdio);
